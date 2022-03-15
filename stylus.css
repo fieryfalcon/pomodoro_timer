@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Poppins:wght@300&display=swap');
+
+
+*{
+  padding: 0;
+  margin: 0;
+  
+}
+body{
+  
+}
+.slide1{
+  height: auto;
+  width: 100%;
+  margin: auto;
+  
+}
+.main-timer{
+  background-image: url('tomato2.jpg');
+  background-size: cover;
+  background-position: center;
+  opacity: 0.8;
+  color: white;
+}
+#work{
+  font-family: 'Poppins';
+  font-size: 4em;
+  text-align: center;
+  justify-content: space-around;
+  padding: 5vh;
+  font-weight: bold;
+
+}
+#work-timer{
+  display: flex;
+  padding-left: 35%;
+  font-size: 5em;
+  font-family: 'Courier New', Courier, monospace;
+  margin:15vh 0;
+  
+}
+.buttons{
+  text-justify: auto;
+  text-align: center;
+  padding: 30px;
+  
+  
+}
+.buttons button{
+  margin: 30px;
+  font-size: 2em;
+  font-style: 'Poppins';
+  padding: 10px 40px;
+  color: aliceblue;
+  border-color: red;
+  border-width: 2px;
+}
+
+button:hover{
+  background-color: red;
+  color: black;
+  font-weight: bolder;
+}
+.gap-timer{
+  height: 50vh;
+  background-image: url("break.jpg");
+  background-size: cover;
+  background-position: center;
+  opacity: 0.8;
+  color:whitesmoke;}
+#break{
+  font-family: 'Poppins';
+  font-size: 2.5em;
+  text-align: center;
+  justify-content: space-around;
+  padding: 5vh;
+  font-weight: bold;
+  color: black;
+
+}
+#break-timer{
+  display: flex;
+  padding-left: 35%;
+  font-size: 5em;
+  font-family: 'Courier New', Courier, monospace;
+  margin: 5vh 0;
+  font-weight: bolder;
+  color: black;
+  
+}
+#cycles{
+  font-family: 'Poppins';
+  font-size: 3em;
+  text-align: center;
+  justify-content: space-around;
+  padding: 7vh;
+  font-weight: bold;
+  
+
+}
+#counter{
+  display: flex;
+  padding-left: 47%;
+  font-size: 5em;
+  font-family: 'Courier New', Courier, monospace;
+  margin: 5vh 0;
+  
+}
+.cycles{
+  background-image: url("cyclist.jpg");
+  background-size: cover;
+  background-position: center;
+  opacity: 1;
+  color:white;
+  margin-top: 10px;
+  font-weight: bolder;
+  opacity: 0.9;
+  
+}
+body{
+  background-color: black;
+}
+.slide2{
+  height:auto;
+  margin-top: 7vh;
+  
+}
+.music h1{
+  font-family: 'Poppins';
+  color:aliceblue;
+  text-align: center;
+  font-size: 3em;
+  padding: 15vh;
+  background-image: url('earphones2.jpg');
+  font-weight: bolder;
+  opacity: 0.7;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.playlist{
+  text-align: center;
+  
+}
+.player{
+  padding-top: 30px;
+}
+
+
+#app {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 200px);
+  padding: 24px;
+  gap: 24px;
+}
+
+.note {
+  height: 200px;
+  box-sizing: border-box;
+  padding: 16px;
+  border: none;
+  border-radius: 10px;
+  
+  resize: none;
+  font-family: sans-serif;
+  font-size: 16px;
+}
+
+.add-note {
+  height: 200px;
+  border: none;
+  outline: none;
+  background:grey;
+  border-radius: 10px;
+  font-size: 120px;
+  color: black;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.add-note:hover {
+  opacity: 0.8;
+}
+
+.sticky_notes h1{
+  font-family: 'Poppins';
+  color:black;
+  text-align: center;
+  font-size: 3em;
+  padding: 15vh;
+  background-image: url('NOTES.jpg');
+  font-weight: 900;
+  opacity: 0.7;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.slide3{
+  padding: 5vh 0;
+  text-align: center;
+  color: white;
+}
