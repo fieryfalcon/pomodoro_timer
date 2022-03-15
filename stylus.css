@@ -48,9 +48,9 @@ body{
 }
 .buttons button{
   margin: 30px;
-  font-size: 2em;
+  font-size: 1.6em;
   font-style: 'Poppins';
-  padding: 10px 40px;
+  padding: 5px 40px;
   color: aliceblue;
   border-color: red;
   border-width: 2px;
